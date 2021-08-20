@@ -167,12 +167,24 @@
     padding: 0;
   }
 
+  .herowrap {
+    background-color: white;
+  }
+
   .logowrap img {
     width: 27%;
   }
 
   .main-text {
     font-size: 1.5em;
+  }
+
+  .about .header {
+    padding: 0;
+  }
+
+  .about .about__content {
+    padding: 20px 24px;
   }
 
   .footer {
