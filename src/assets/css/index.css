@@ -47,7 +47,6 @@
 .logowrap {  
   text-align: left;
   padding-left: 22px;
-  padding-top: 45px;
   margin-bottom: -6px;
 }
 
@@ -96,6 +95,11 @@
 
 .footer .columns .column .column__info a {
   text-decoration: underline;
+}
+
+.footer .facebook_icon {
+  width: 20px;
+  height: auto;
 }
 
 

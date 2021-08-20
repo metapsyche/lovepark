@@ -22,6 +22,8 @@
           <p class="labeler">Contact</p>
           <p><a href="mailto:{{ contact.email }}">{{ contact.email }}</a></p>
           <p><a href="#">{{ contact.phone }}</a></p>
+          <p><i class="fab fa-facebook-square"></i></p>
+          <p><a href=""><img class="facebook_icon" alt="Love Park Image" src="./../assets/images/facebook.png" /></a></p>
         </div>
       </div>
     </div>

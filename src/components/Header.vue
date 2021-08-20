@@ -28,7 +28,6 @@
         <a href="/" title="Love Park"><img alt="Love Park logo" src="./../assets/images/love-park-logo.png" /></a>
         <span class="main-text">Spring into LOVE</span>
     </div>
-    <div style="clear:both"></div>
   </div>
 </template>
 
