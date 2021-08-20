@@ -1,0 +1,184 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  background-color: gray;
+}
+
+.home {
+  background-image: url("./../images/bg-main.jpg");
+  background-repeat: repeat-x;
+  padding: 0 54px;
+}
+
+.navigation {
+  width: 600px;
+  float: right;
+}
+
+.navigation a {
+  font-weight: bold;
+  color: #444444;
+}
+
+/** START: bulma override **/ 
+.navigation nav.navbar {
+  background-color: transparent;
+}
+
+.navigation nav.navbar a:focus {
+  outline: 1px dotted gray;
+}
+
+.navigation nav.navbar a[aria-current="page"] {
+  color: white;
+  background-color: #444444;
+}
+
+.navigation nav.navbar .navbar-item {
+  padding: 0 37px;
+}
+
+
+/** END: bulma override **/
+
+.logowrap {  
+  text-align: left;
+  padding-left: 22px;
+  padding-top: 45px;
+  margin-bottom: -6px;
+}
+
+.logowrap img {
+  width: 200px;
+  height: auto;
+}
+
+.main-text {
+  font-weight: bold;
+  font-size: 37px;
+  color: #434344;
+}
+
+.herowrap {
+  border: 20px solid white;
+}
+
+.herowrap img {
+  width: 100%;
+}
+
+.footer {
+  background-color: white!important;
+  padding-top: 0!important;
+}
+
+.footer .columns .column {
+  text-align: left;
+}
+
+.footer .columns .column .column__info {
+  width: 100%;
+  border-right: 1px solid gray;
+  min-height: 120px;
+}
+
+.footer .columns .column:last-child .column__info {
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.footer .columns .column p.labeler {
+  font-weight: bold;
+}
+
+.footer .columns .column .column__info a {
+  text-decoration: underline;
+}
+
+
+/** START: About **/
+.about {
+  background-image: url("./../images/bg-about.jpg");
+  background-repeat: repeat-x;
+}
+
+.about .header {
+  padding: 0 48px;
+}
+
+.about .about__content {
+  background-color: white;
+  text-align: left;
+  padding: 0 70px;
+  padding-bottom: 30px;
+  padding-top: 26px;
+}
+
+.about .about__content p {
+  margin: 18px 0;
+}
+
+.about .about__content h1 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.about .about__content h2 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.about .about__content .parkswrap {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.about .footer {
+  background-color: blue!important;
+  color: white;
+}
+
+.about .footer .columns {
+  padding-top: 30px;
+}
+
+.about .footer a {
+  color: white;;
+}
+/** END: About **/
+
+
+/** Responsive **/
+
+@media (max-width: 768px) {
+
+  #app {
+    padding: 0;
+  }
+
+  .home {
+    padding: 0;
+  }
+
+  .logowrap img {
+    width: 27%;
+  }
+
+  .main-text {
+    font-size: 1.5em;
+  }
+
+  .footer {
+    padding-top: 20px;
+  }
+
+  .footer .columns .column .column__info {
+    width: 100%;
+    border-right: 0;
+    border-bottom: 1px solid gray;
+  }
+
+}
