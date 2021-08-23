@@ -1,4 +1,5 @@
 <template>
+  <div role="main">
     <div class="about__content">
       <div class="text-wrap">
 
@@ -12,6 +13,7 @@
 
       </div>
     </div>
+  </div>
 </template>
 
 <script>

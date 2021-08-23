@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer">
+  <footer class="footer" aria-label="Footer">
     <div class="columns">
       <div class="column">
         <div class="column__info">
@@ -21,7 +21,7 @@
         <div class="column__info">
           <p class="labeler">Contact</p>
           <p><a href="mailto:{{ contact.email }}">{{ contact.email }}</a></p>
-          <p><a href="#">{{ contact.phone }}</a></p>
+          <p><a href="#">{{ phone }}</a></p>
           <p><i class="fab fa-facebook-square"></i></p>
           <p><a href=""><img class="facebook_icon" alt="Love Park Image" src="./../assets/images/facebook.png" /></a></p>
         </div>
@@ -48,6 +48,7 @@
             console.log(data);
             this.address = data.address;
             this.contact = data.contact;
+            this.phone = '(215) 683-3600'; // TO-DO: reformat raw phone number
             this.hours = data.hours;
           })
         } catch (error) {

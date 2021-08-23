@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <header class="header">
     <div class="navigation">
       <nav class="navbar" role="navigation" aria-label="main navigation">
         <div id="navbarBasicExample" class="navbar-menu">
@@ -29,7 +29,7 @@
         <a href="/" title="Love Park"><img alt="Love Park logo" src="./../assets/images/love-park-logo.png" /></a>
         <span class="main-text">Spring into LOVE</span>
     </div>
-  </div>
+  </header>
 </template>
 
 
