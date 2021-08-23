@@ -22,6 +22,18 @@
   color: #444444;
 }
 
+.navigation .hamburger {
+  display: none;
+  width: 40px;
+  position: absolute;
+  left: 90%;
+  top: 3%;
+}
+
+.navigation .hamburger .hamburger-button {
+  font-size: 30px;
+}
+
 /** START: bulma override **/
 
 .navigation nav.navbar {
@@ -93,4 +105,11 @@
     font-size: 1.5em;
   }
 
+}
+
+
+@media (max-width: 1023px) {
+  .navigation .hamburger {
+    display: block;
+  }
 }

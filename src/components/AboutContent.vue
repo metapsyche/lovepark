@@ -27,7 +27,7 @@
           fetch("http://ec2-3-88-48-245.compute-1.amazonaws.com/wp-json/pages/v2/archive?id=27")
           .then(response => response.json())
           .then(data => {
-            console.log(data);
+            //console.log(data);
             this.content = data;
           })
         } catch (error) {
