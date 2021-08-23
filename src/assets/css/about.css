@@ -39,8 +39,10 @@
   margin-top: 50px;
 }
 
+/** START: Footer overrides **/
+
 .about .footer {
-  background-color: blue!important;
+  background-color: #0F4D90!important;
   color: white;
 }
 
@@ -48,10 +50,11 @@
   padding-top: 30px;
 }
 
-.about .footer a {
-  color: white;;
+.about .footer .columns .column .column__info a {
+  color: white;
 }
 
+/** END: Footer overrides **/
 
 
 /** Responsive **/

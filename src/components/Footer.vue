@@ -6,7 +6,7 @@
           <p class="labeler">Address</p>
           <p>{{ address.address_1 }} {{ address.address_2 }}</p>
           <p>{{ address.city }}, {{ address.state }} {{ address.zip }}</p>
-          <p><a class="map-link" href="#">Map</a></p>
+          <p><a class="map-link" href="https://www.google.com/maps/place/1501+John+F+Kennedy+Blvd,+Philadelphia,+PA+19102/@39.9534698,-75.1678854,17z/data=!3m1!4b1!4m5!3m4!1s0x89c6c62e12295685:0x1244dde71a8c3603!8m2!3d39.9534657!4d-75.1656967" target="_new">Map</a></p>
         </div>
       </div>
       <div class="column">
