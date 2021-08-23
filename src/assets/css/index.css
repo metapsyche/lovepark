@@ -4,7 +4,6 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-color: gray;
 }
 
 .home {
@@ -23,7 +22,8 @@
   color: #444444;
 }
 
-/** START: bulma override **/ 
+/** START: bulma override **/
+
 .navigation nav.navbar {
   background-color: transparent;
 }
@@ -40,7 +40,6 @@
 .navigation nav.navbar .navbar-item {
   padding: 0 37px;
 }
-
 
 /** END: bulma override **/
 
@@ -69,91 +68,6 @@
   width: 100%;
 }
 
-.footer {
-  background-color: white!important;
-  padding-top: 0!important;
-}
-
-.footer .columns .column {
-  text-align: left;
-}
-
-.footer .columns .column .column__info {
-  width: 100%;
-  border-right: 1px solid gray;
-  min-height: 120px;
-}
-
-.footer .columns .column:last-child .column__info {
-  border-right: 0;
-  border-bottom: 0;
-}
-
-.footer .columns .column p.labeler {
-  font-weight: bold;
-}
-
-.footer .columns .column .column__info a {
-  text-decoration: underline;
-}
-
-.footer .facebook_icon {
-  width: 20px;
-  height: auto;
-}
-
-
-/** START: About **/
-.about {
-  background-image: url("./../images/bg-about.jpg");
-  background-repeat: repeat-x;
-}
-
-.about .header {
-  padding: 0 48px;
-}
-
-.about .about__content {
-  background-color: white;
-  text-align: left;
-  padding: 0 70px;
-  padding-bottom: 30px;
-  padding-top: 26px;
-}
-
-.about .about__content p {
-  margin: 18px 0;
-}
-
-.about .about__content h1 {
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.about .about__content h2 {
-  font-weight: bold;
-  font-size: 18px;
-}
-
-.about .about__content .parkswrap {
-  text-align: center;
-  margin-top: 50px;
-}
-
-.about .footer {
-  background-color: blue!important;
-  color: white;
-}
-
-.about .footer .columns {
-  padding-top: 30px;
-}
-
-.about .footer a {
-  color: white;;
-}
-/** END: About **/
-
 
 /** Responsive **/
 
@@ -177,24 +91,6 @@
 
   .main-text {
     font-size: 1.5em;
-  }
-
-  .about .header {
-    padding: 0;
-  }
-
-  .about .about__content {
-    padding: 20px 24px;
-  }
-
-  .footer {
-    padding-top: 20px;
-  }
-
-  .footer .columns .column .column__info {
-    width: 100%;
-    border-right: 0;
-    border-bottom: 1px solid gray;
   }
 
 }

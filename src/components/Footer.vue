@@ -47,7 +47,6 @@
           .then(data => {
             console.log(data);
             this.address = data.address;
-            //console.log(this.contentData);
             this.contact = data.contact;
             this.hours = data.hours;
           })
