@@ -6,13 +6,13 @@
           <p class="labeler">Address</p>
           <p>{{ address.address_1 }} {{ address.address_2 }}</p>
           <p>{{ address.city }}, {{ address.state }} {{ address.zip }}</p>
-          <p><a href="#">Map</a></p>
+          <p><a class="map-link" href="#">Map</a></p>
         </div>
       </div>
       <div class="column">
         <div class="column__info">
           <p class="labeler">Hours</p>
-          <p>Closed Today</p>
+          <p>Closed Today</p> <!-- TO-DO: use script to detect user's date-time and display proper hours based on logic  -->
           <br>
            <p><a href="#">See all hours</a></p>
         </div>
