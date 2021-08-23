@@ -32,10 +32,6 @@
   height: auto;
 }
 
-.footer .map-link {
-
-}
-
 .footer a.map-link:after {
   background: transparent url("./../images/external-link.svg") 0 0 no-repeat;
   background-size: 18px;
@@ -58,6 +54,10 @@
     width: 100%;
     border-right: 0;
     border-bottom: 1px solid gray;
+  }
+
+  .footer a.map-link:after {
+    display: none;
   }
 
 }
